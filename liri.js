@@ -1,26 +1,3 @@
-//how to deal with api keys (option 1)
-//var twitterKeys = {
-//    consumer_key: '31NGgDbjKJIAL1wInLbwzl8X5',
-//    consumer_secret: 'CoN5GdHkgIhyUn0ZvTnSXn0wH1tHtG0Yz7YfcyjAWmOudTXJFh',
-//    access_token_key: '757294851922784257-ip3sIoRORROWZoIYMeEn5lVfyO8UEE8',
-//    access_token_secret: 'aqqUU029YEkISJD0Fm4ZHkyuWz8KRrwso5bXSaJ30P9XY'
-//};
-//
-//var spotifyKeys = {
-//    id: '35637af43da7466899da86de70f2275a',
-//    secret: '35d0ba82a1494af6a739d8bf32f0b769'
-//};
-
-//var Twitter = require('twitter'); 
-//var client = new Twitter(twitterKeys);
-
-
-//how to deal with api keys (option 2): use external file keys.js
-//var keys = require("./keys.js");
-//var Twitter = require('twitter'); 
-//var client = new Twitter(keys.twitterKeys);
-
-
 //initialization
 var nodeArgs = process.argv;
 var command = nodeArgs[2];
