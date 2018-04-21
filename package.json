@@ -1,0 +1,28 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinkkim/liri-node-app.git"
+  },
+  "keywords": [
+    "spotify",
+    "twitter"
+  ],
+  "author": "bibi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinkkim/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/jinkkim/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "node-spotify-api": "^1.0.7",
+    "twitter": "^1.7.1"
+  }
+}
