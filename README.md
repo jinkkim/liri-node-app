@@ -13,17 +13,17 @@ Type the following commands within terminal (Mac or Linux) or Command Prompt (Wi
 
 2. `node liri.js spotify-this-song '<song name here>'`
   - Find songs from the Spotify API
-  - If no song is provided, Search result of "The Sign" by Ace of Base will be displayed.
+  - If no song is provided, search result of "The Sign" by Ace of Base will be displayed.
 
 ![SpotifyDemo](2.spotify.gif)
 
 3. `node liri.js movie-this '<movie name here>'`
   - Find movies from the OMDB API
-  - If no movie is provided, Search result of "Mr. Nobody" will be displayed.
+  - If no movie is provided, search result of "Mr. Nobody" will be displayed.
 
 ![MovieDemo](3.movie.gif)
 
 4. `node liri.js do-what-it-says`
-  - Execuet command from random.txt 
+  - Execute command from random.txt 
 
 ![DoItDemo](4.do-it.gif)
